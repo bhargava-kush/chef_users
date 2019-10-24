@@ -1,0 +1,5 @@
+[run]
+include = chef_user/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
